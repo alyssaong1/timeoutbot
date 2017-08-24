@@ -1,0 +1,17 @@
+{
+  "name": "intervalbot",
+  "version": "1.0.0",
+  "description": "Bot that pings user if no response for too long",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alyssa Ong",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.9.1",
+    "circular-json": "^0.3.3",
+    "restify": "^5.2.0"
+  }
+}
